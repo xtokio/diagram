@@ -1,0 +1,25 @@
+name: diagram
+version: 0.1.0
+
+authors:
+  - xtokio <xtokio@gmail.com>
+
+targets:
+  diagram:
+    main: src/diagram.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  kemal-session:
+    github: kemalcr/kemal-session
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+  crecto:
+    github: xtokio/crecto
+  baked_file_system:
+    github: xtokio/baked_file_system
+
+crystal: 1.8.2
+
+license: MIT
