@@ -3,3 +3,6 @@
 /bin/
 /.shards/
 *.dwarf
+*.db
+.env
+diagram
